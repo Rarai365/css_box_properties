@@ -1,0 +1,241 @@
+.Title {
+  border: 2px dotted rgb(16, 16, 2);
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(241, 193, 233);
+}
+.first-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.main-content {
+  border: 2px solid black;
+
+  flex-basis: 70%;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(134, 221, 238);
+  outline-style: dotted;
+  outline-color: red;
+  border-radius: 12px;
+}
+
+.subcontent-1 {
+  /* border: 2px solid red; */
+  padding: 12px;
+  flex-basis: 60%;
+  text-align: center;
+  text-decoration: double;
+  height: 150px;
+  /* margin: 10px 10px 10px 10px; */
+}
+.subcontent-1:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.subcontent-2 {
+  flex-basis: 40%;
+}
+
+.image-1 {
+  width: 80%;
+  border-radius: 12px;
+  margin-right: 12px;
+  background-color: rgb(244, 237, 237);
+}
+.image-1:hover {
+  transform: scale(1.1); /*scale up slightlt */
+  z-index: 10; /*bring the element to the front */
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(151, 93, 233);
+  /*add shadow for depth */
+}
+.second-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  flex-basis: 30%;
+  gap: 4px;
+  background-color: rgb(134, 221, 238);
+
+  height: 300px;
+  outline: dotted red;
+  border-radius: 12px;
+}
+
+.contact-us {
+  border: 2px solid black;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  gap: 4px;
+  align-items: center;
+}
+
+.ways-to-bank {
+  border: 2px solid black;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  gap: 4px;
+  align-items: center;
+}
+
+.ways-to-bank-1 {
+  /* border: 2px solid black; */
+  flex-basis: 20%;
+  display: flex;
+}
+
+.ways-to-bank-2 {
+  /* border: 2px solid black; */
+  flex-basis: 80%;
+  text-align: center;
+}
+
+.ways-to-bank-2:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+.bank-1 {
+  height: 50px;
+  width: 80px;
+  border-radius: 8px;
+  margin-left: 12px;
+  background-color: rgb(244, 237, 237);
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(16, 1, 1);
+}
+
+.contact-us-1 {
+  /* border: 2px solid black; */
+  flex-basis: 20%;
+}
+
+.contact-us-2 {
+  /* border: 2px solid red; */
+  flex-basis: 80%;
+  text-align: center;
+}
+.contact-us-2:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.contact-img {
+  height: 60px;
+  width: 80px;
+  border-radius: 8px;
+  margin-left: 12px;
+  background-color: rgb(244, 237, 237);
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(16, 1, 1);
+}
+
+.third-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  gap: 4px;
+  height: 400px;
+}
+
+.third-div-1 {
+  border: 2px solid black;
+  flex-basis: 33%;
+  border-radius: 12px;
+  height: 50vh;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: right;
+  background-color: rgb(250, 181, 91);
+}
+
+.third-div-2 {
+  border: 2px solid black;
+  flex-basis: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: right;
+  background-color: rgb(151, 93, 239);
+  border-radius: 12px;
+  height: 50vh;
+}
+
+.third-div-3 {
+  border: 2px solid black;
+  flex-basis: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: right;
+  background-color: rgb(157, 237, 163);
+  border-radius: 12px;
+  height: 50vh;
+}
+
+.family {
+  height: 80%;
+  width: 50%;
+  margin-top: 18px;
+  margin-left: 18px;
+  border-radius: 12px;
+  background-color: rgb(244, 237, 237);
+
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.family:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(151, 93, 239);
+}
+
+.bike {
+  height: 80%;
+  width: 50%;
+  margin-top: 18px;
+  margin-left: 18px;
+  border-radius: 12px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.bike:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(151, 93, 233);
+}
+.top {
+  height: 100%;
+  width: 50%;
+  margin-top: 18px;
+  margin-left: 18px;
+  border-radius: 12px;
+  background-color: rgb(244, 237, 237);
+}
+.top:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(151, 93, 233);
+}
+.text-1 {
+  margin-top: 30px;
+  flex: 50%;
+  text-align: center;
+}
+
+.third-div-2 div:hover {
+  color: white;
+}
+.bike {
+  background-color: rgb(244, 237, 237);
+  box-shadow: 0 4px 8px 0 rgb(134, 221, 238), 0 6px 20px 0 rgb(151, 93, 239);
+}
